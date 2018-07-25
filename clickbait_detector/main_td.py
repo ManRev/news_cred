@@ -77,6 +77,7 @@ publishers = list(set(dict_tot['publisher']))
 #print("tot=", len(yai))
 #publishers_diet(dict_tot, testData, publishers, "clickbait_publihsers_pol_sec.csv")
 
+#/// MULTI LABEL CLASSIFICATION
 from skmultilearn.problem_transform import LabelPowerset
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
