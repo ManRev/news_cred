@@ -12,3 +12,4 @@
   - main_final.py allow to compute and print the data statistics (can be run on the sampled data data_2018_delt5_all.pickle with year = 2018).
   
 ### **Code for scraping:** 
+  - DataScraping.py to scrape CRNs' widgets (Outbrain, Taboola, Revcontent, Zergnet, Dianomi)
