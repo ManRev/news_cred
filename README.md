@@ -1,5 +1,8 @@
 # news_cred
 
+### **Code for scraping:** 
+  - DataScraping.py to scrape CRNs' widgets (Outbrain, Taboola, Revcontent, Zergnet, Dianomi)
+ 
 ### **Code for supervised learning analysis:**
 
 **Clickbait_detector** directory contains 5 files:
@@ -10,6 +13,9 @@
   - svm.py contains the Bayes classifier coded. 
   - clickbait_publisher.py allows to study the publisher diet
   - main_final.py allow to compute and print the data statistics (can be run on the sampled data data_2018_delt5_all.pickle with year = 2018).
-  
-### **Code for scraping:** 
-  - DataScraping.py to scrape CRNs' widgets (Outbrain, Taboola, Revcontent, Zergnet, Dianomi)
+ 
+**Data** data used in the cickbait_dector and output:
+  - TrainingSet_5000.csv is the training set for 2016 data collection.
+  - trainingMarch.pcsv is the training set for 2018 data collection. 
+  - test_scatterplot_2016_5max.pickle is the data output after running the Bayes Detector on 2016 data. 
+  - test_scatterplot_2018_5max.pickle is the data output after running the Bayes Detector on 2018 data. 
