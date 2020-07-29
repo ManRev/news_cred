@@ -65,7 +65,7 @@ testData = testData.dropna(subset=['Text_sp'], inplace=True)
 i = 0
 for index, row in testData.iterrows():
     i += 1
-    cl = classify(row['Text_sp'], p_spam, p_notSpam, positiveTotal, negativeTotal, alpha, train2[4], train2[5])
+    cl = classify(row['Text_sp'], p_spam, p_notSpam, positiveTotal, negativeTotal, alpha, train2[4], train2[5], 5)
     if cl == 1 and row['Text_sp'] is not "":
         testData.at[index, "Label_Clickbait"] = 1
         numSpam_test += 1
