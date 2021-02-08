@@ -16,4 +16,4 @@
   - trainingMarch.pcsv is the training set for 2018 data collection. 
   - test_scatterplot_2016_5max.pickle is the data output after running the Bayes Detector on 2016 raw data. Part of the 2016 data is missing because of the file's size. Please, contact us if you would like to get access to the full data. 
   - test_scatterplot_2018_5max.pickle is the data output after running the Bayes Detector on 2018 raw data.
-  - For raw data of both years, please reach out to us! 
+  - For raw data of both years, please reach out to us at mrevel@mit.edu! 
